@@ -120,8 +120,8 @@ def train(
 
     # Restore variables from disk.
     restorer.restore(sess, cfg['init_weights'])
-    max_iter = 2000
-    print("Maximum iterations:", max_iter)
+    max_iter = maxiters
+    print("Maximum iterations:", maxiters)
     display_iters = max(1, int(displayiters))
     print("Display iteration:", display_iters)
 
