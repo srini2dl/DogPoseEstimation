@@ -30,7 +30,7 @@ tensorpack==0.9.8
 tqdm
 moviepy<=1.0.1
 bayesian-optimization
-wxPython
+deeplabcut
 easydict
 tensorflow==1.15.0
 opencv-python==4.5.1.48
