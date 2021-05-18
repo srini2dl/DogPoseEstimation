@@ -24,9 +24,7 @@ labeledDataPath = projectDirectory / 'labeledData'
 trainingDataPath = projectDirectory / 'trainingData'
 modelPath = projectDirectory / 'models'
 modelPathTrain = modelPath / 'train'
-modelPathTest = modelPath / 'test'
 
-modelfoldername = modelPath
 poseconfigfile = modelPathTrain / "pose_cfg.yaml"
 
 train(str(poseconfigfile),args.displayiters,args.saveiters,args.maxiters,max_to_keep=args.max_snapshots_to_keep)

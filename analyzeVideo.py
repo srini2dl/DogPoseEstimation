@@ -70,7 +70,7 @@ pdindex = pd.MultiIndex.from_product(
         names=["scorer", "bodyparts", "coords"],
     )
 DLCscorer = AnalyzeVideo(
-                    'test2.mp4',
+                    'videos/test.mp4',
                     DLCscorer,
                     DLCscorerlegacy,
                     trainFraction,
@@ -83,4 +83,3 @@ DLCscorer = AnalyzeVideo(
                     True,
                     'videos',
                 )
-print('ss')

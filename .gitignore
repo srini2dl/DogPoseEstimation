@@ -5,3 +5,5 @@ videos/
 venv/
 programs/
 __pycache__/
+trainingData/
+models/
